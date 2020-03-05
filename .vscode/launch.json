@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "concurrency-handler",
+            "port": 9001,
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch via NPM",
+        "runtimeExecutable": "npm",
+        // "preLaunchTask": "tsc-watch",
+        "runtimeArgs": [
+            "run-script",
+            "debug",
+            "--harmony"
+        ],
+        "restart": false,
+        "port": 9229,
+        "cwd": "${workspaceFolder}",
+        "env": {
+            "DEBUG_PORT": "9229"
+        },
+        "outputCapture": "std"
+    }]
+}
