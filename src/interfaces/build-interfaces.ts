@@ -11,14 +11,14 @@ export enum SHARED_RESOURCE {
 
 export interface ISharedMap {
   [contextName: string]: {
-    [operationName: string]: Set<number | string>
-  }
+    [operationName: string]: Set<number | string>;
+  };
 }
 
 export interface IMutex {
-  resourceName: SHARED_RESOURCE.MUTEX
-  resourceType: MUTEX_RESOURCE_TYPE
-  size: number
+  resourceName: SHARED_RESOURCE.MUTEX;
+  resourceType: MUTEX_RESOURCE_TYPE;
+  size: number;
 }
 
 export enum MUTEX_RESOURCE {
