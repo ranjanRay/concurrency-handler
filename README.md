@@ -13,7 +13,8 @@ The "data" in the request body should be an array of strings/ numbers. The API i
 Steps to build and execute:
 
 1. Clone the repo.
-2. npm i
-3. npm run build
-4. npm run start
-5. The app runs on port 4040
+2. cd to 'concurrency-handler' directory.
+3. npm i
+4. npm run build
+5. npm run start
+6. The app runs on port 4040
