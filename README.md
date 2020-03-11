@@ -9,3 +9,9 @@ A Post API is exposed to hit concurrent requests, viz. '/execute-async-operation
 }
 
 The "data" in the request body should be an array of strings/ numbers. The API internally executes an async operation for as long as the `timeout` is specified in milliseconds.
+
+Steps to execute:
+1. Clone the repo.
+2. npm i
+3. npm run build
+4. npm run start
