@@ -9,7 +9,7 @@ import {
   SHARED_RESOURCE,
   MUTEX_RESOURCE_TYPE
 } from "./interfaces/build-interfaces";
-import { executeAsyncOp } from "./api/mock-async-operation";
+import { executeAsyncOp } from "./async";
 import {
   CONTEXT_NAME,
   OPERATION_NAME
